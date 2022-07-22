@@ -1,4 +1,4 @@
-# tf-auto-annotate
+# tfod-auto-annotate
 While attempting to train object detection for AimLab targets, I made this Python script to speed up the process of annotation. Using a pretrained object detection model, the script will automatically generate an xml file with the inferred bounding boxes. 
 
 Without this I had to manually annotate each and every image for all three target spheres which was very time consuming. I hope this might help anyone trying to custom train their own object detection model. 
