@@ -15,9 +15,11 @@ The directory should look something like this:
 ![image](https://user-images.githubusercontent.com/64398319/180567229-6fbb2567-61f1-4314-9843-a884c1ba99a5.png)
 
 From there simply navigate to the folder and execute:
+
 `python generate_xmls.py [model folder name] [image folder name] [label map file name]`
 
 As an example using the file names I have above:
+
 `python generate_xmls.py model images label_map.pbtxt`
 
 In the case that an image has zero detections, a folder will be created and that image will be moved. This is to separate images that only need to be glanced over and images that need to be entirely manually annotated
